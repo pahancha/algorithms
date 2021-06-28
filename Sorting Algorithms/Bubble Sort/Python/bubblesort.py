@@ -1,6 +1,6 @@
 def bubbleSort(arr):
-    for i in range(0, len(arr)-1):
-        for j in range(1, len(arr)-1):
+    for i in range(0, len(arr)):
+        for j in range(1, len(arr)):
             if(arr[j-1] > arr[j]):
                 temp = arr[j-1]
                 arr[j - 1] = arr[j]
