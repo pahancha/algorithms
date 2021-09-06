@@ -1,5 +1,5 @@
 public class BinarySearch {
-    // binary search can be implemented using recursion and iteration. Implementation for both ways are below.
+    // binary search can be implemented using recursion and iteration. Implementation for recurssion is below.
 
     //Recursive Implementation
     public int binarySearchRec(int[] array, int target, int left, int right) {
